@@ -1,5 +1,5 @@
 <template>
-  <div class="fa-card p-5 flex-b">
+  <div class="fa-card p-5 flex-b h-full">
     <div>
       <h2 class="text-2xl font-medium">关于项目</h2>
       <p class="text-g-700 mt-1">{{ systemName }} 是一款兼具设计美学与高效开发的后台系统</p>
@@ -31,7 +31,7 @@ const linkList = [
   { label: "项目官网", url: WEB_LINKS.DOCS },
   { label: "文档", url: WEB_LINKS.INTRODUCE },
   { label: "Github", url: WEB_LINKS.GITHUB_HOME },
-  { label: "哔哩哔哩", url: WEB_LINKS.BILIBILI },
+  { label: "Gitee", url: WEB_LINKS.GITEE },
 ];
 
 /**
